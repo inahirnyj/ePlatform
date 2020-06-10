@@ -1,0 +1,13 @@
+{
+  "name": "eplatform",
+  "version": "1.0.0",
+  "description": "Test API project for eLearning platform",
+  "main": "index.js",
+  "scripts": {
+    "api-tests": "newman run eLearning-Platform.postman_collection.json -e eLearning-Platform.postman_environment.json"
+  },
+  "author": "Ivan Nahirnyy",
+  "dependencies": {
+    "newman": "^5.1.0"
+  }
+}
