@@ -4,7 +4,7 @@
   "description": "Test API project for eLearning platform",
   "main": "index.js",
   "scripts": {
-    "api-tests": "newman run eLearning-Platform.postman_collection.json -e eLearning-Platform.postman_environment.json"
+    "api-tests": "newman run eLearning-Platform.postman_collection.json -e eLearning-Platform.postman_environment.json --reporters cli"
   },
   "author": "Ivan Nahirnyy",
   "dependencies": {
